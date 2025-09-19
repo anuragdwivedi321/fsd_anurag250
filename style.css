@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css2?family=Arima&display=swap);
+body{
+    margin: 0;
+    font-family: 'Arima', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    background-color: rgb(41, 87, 155);
+    padding: 20px;
+    color: rgb(8, 8, 8);
+    padding: 15px;
+    text-align: center;
+}
+header h1{
+    margin: 0;
+    font-size: 24px;
+}
+footer{
+    background-color: rgb(189, 206, 224);
+    padding: 20px;
+    color: rgb(8, 8, 8);
+    padding: 15px;
+    text-align: center;
+}
+.social-icon{
+    margin: 10px;
+}
+.social-icon a{
+    margin: 10px;
+    color: rgb(99, 219, 66);
+    text-decoration: solid;
+    font-size: 15px;
+    transition:color 0.3s ease;
+}
+.social-icon a:hover{
+    color: rgb(70, 36, 193);
+}
+
+@media (max-width: 768px) {
+    header p{
+        font-size: 20px;
+    }
+}
